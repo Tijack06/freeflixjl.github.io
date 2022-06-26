@@ -56,7 +56,7 @@ header{
     position: relative;
 }
 .navbar a{
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 500;
     color: var(--bg-color);
 }
@@ -71,7 +71,8 @@ header{
     transition: 0.4s all linear;
 }
 .navbar a:hover::after{
-    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
 }
 #menu-icon{
     font-size: 24px;
